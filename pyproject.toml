@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pycon2020"
+version = "0.1.0"
+description = "Test Toml"
+authors = ["Thomas Woolford <twoolie@blackhats.net.au>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pillow = "^7.2.0"
+numpy = "^1.19.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+mypythonapp = "mypythonapp:hello"
